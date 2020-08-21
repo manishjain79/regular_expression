@@ -8,7 +8,7 @@ b = ["jain", "jain", "jain"]
 
 for fn, ln in itertools.zip_longest(a, b):
     if ln is None:
-        print(f'{fn} -NoLastName')
+        print(f'{fn} does not have last name')
     else:
         print(fn, ln)
 

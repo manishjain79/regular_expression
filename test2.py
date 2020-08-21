@@ -1,0 +1,6 @@
+t1 = (10,)
+print(dir(t1))
+print(type(t1))
+t2 = (40,)
+t1.__reduce__()
+print(t1)
